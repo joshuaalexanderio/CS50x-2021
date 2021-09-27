@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", "sanserif";
+  font-size: 2rem;
+}
+h2 {
+  width: 100%;
+  border-bottom: 1.5px black solid;
+}
+.jumbotron {
+  background-color: #477bff;
+  color: white;
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-free-response {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-multiple-choice {
+}
+button {
+  font-size: 2rem;
+  transition: background-color 0.5s ease;
+  border-style: none;
+  border-radius: 200px;
+  background-color: grey;
+  color: white;
+  padding: 20px;
+  margin: 3px;
+}
+input {
+  width: 100%;
+  height: 5vh;
+  font-size: 2rem;
+}
+@media all and (max-width: 576px) {
+}
+@media all and (min-width: 768px) {
+}
+
+@media all and (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+  .jumbotron {
+    height: 10vh;
+  }
+  input {
+    height: 2vh;
+  }
+}
